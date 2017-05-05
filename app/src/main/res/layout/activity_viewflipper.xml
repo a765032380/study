@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.gll.study.view.MyViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.example.gll.study.view.MyViewFlipper>
+    <ImageView
+        android:background="@drawable/head_3"
+        android:id="@+id/image_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_two"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp" />
+    <ImageView
+        android:background="@drawable/head_1"
+        android:id="@+id/image_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_three"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:background="@drawable/head_1"
+        android:id="@+id/image_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="59dp"
+        android:layout_marginEnd="59dp" />
+
+</RelativeLayout>
